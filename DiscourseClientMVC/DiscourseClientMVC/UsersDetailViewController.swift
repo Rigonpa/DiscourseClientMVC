@@ -60,9 +60,9 @@ class UsersDetailViewController: UIViewController {
         text.layer.borderColor = UIColor.lightGray.cgColor
         text.font = UIFont(name: "Verdana-Bold", size: 20)
         text.isHidden = true
-        //        if let name = user!.name {
-        //            text.placeholder = "\(name)"
-        //        }
+        if let name = user!.name {
+            text.placeholder = "\(name)"
+        }
         return text
     }()
     
